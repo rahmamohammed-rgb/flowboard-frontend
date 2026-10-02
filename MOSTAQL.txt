@@ -1,0 +1,23 @@
+TITLE
+FlowBoard – Responsive Project Management Dashboard
+
+DESCRIPTION
+تطوير واجهة مستخدم Dashboard متجاوبة لإدارة المشاريع والمهام باستخدام React.js وCSS، مع تصميم عصري وبسيط يركز على سهولة الاستخدام وعرض البيانات بشكل منظم على الشاشات المختلفة.
+
+تم تنفيذ المشروع كـ Front-End Concept / Training Project، ويعتمد على بيانات وهمية داخل الواجهة فقط، بدون Backend أو Database أو بيانات شخصية أو صور خارجية.
+
+FEATURES
+- Responsive dashboard for desktop, tablet, and mobile.
+- Project progress and status cards.
+- Task search and filtering.
+- Add-task modal.
+- Interactive task completion.
+- Light/Dark Mode.
+- Responsive sidebar navigation.
+- Clean reusable React components.
+
+TECHNOLOGIES
+React.js, JavaScript, HTML5, CSS3, Vite, Responsive Web Design
+
+NOTE
+This is a self-created training/concept project for portfolio presentation. All displayed data is fictional and used only for UI demonstration.

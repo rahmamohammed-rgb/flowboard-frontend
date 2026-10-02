@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlowBoard Preview</title>
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand-row"><div class="brand-mark">F</div><div><div class="brand-name">FlowBoard</div><div class="brand-subtitle">Workspace</div></div></div>
+    <div class="workspace-card"><div class="workspace-dot"></div><div class="workspace-copy"><strong>Creative Studio</strong><span>Product Team</span></div><span>⌄</span></div>
+    <nav class="main-nav"><div class="nav-label">WORKSPACE</div>
+      <button class="nav-item active"><span>▦</span><span>Overview</span></button><button class="nav-item"><span>▣</span><span>Projects</span></button><button class="nav-item"><span>☑</span><span>Tasks</span></button><button class="nav-item"><span>◎</span><span>Team</span></button>
+    </nav>
+    <nav class="main-nav bottom-nav"><div class="nav-label">TOOLS</div><button class="nav-item"><span>□</span><span>Calendar</span></button><button class="nav-item"><span>⚙</span><span>Settings</span></button><button class="nav-item"><span>?</span><span>Help Center</span></button></nav>
+    <div class="upgrade-card"><div class="upgrade-icon">↗</div><strong>Keep work moving</strong><span>Organize tasks, monitor progress, and keep every project on track.</span></div>
+  </aside>
+  <main class="main">
+    <header class="topbar"><div class="crumbs"><span>Workspace</span><span>/</span><strong>Overview</strong></div><div class="top-actions"><div class="search-box"><span>⌕</span><input placeholder="Search tasks or projects"><kbd>⌘ K</kbd></div><button class="icon-btn">◐</button><button class="icon-btn notification">◉<span></span></button><div class="avatar">UI</div></div></header>
+    <div class="content">
+      <section class="hero"><div><div class="eyebrow">Friday, October 2</div><h1>Good morning, team.</h1><p>Here’s a clear view of what needs attention across your workspace.</p></div><button class="primary-btn">＋ Add task</button></section>
+      <section class="stats-grid"><div class="stat-card"><div class="stat-icon">▣</div><span>Active projects</span><strong>08</strong><small>+2 this month</small></div><div class="stat-card"><div class="stat-icon">☑</div><span>Open tasks</span><strong>24</strong><small>06 due this week</small></div><div class="stat-card"><div class="stat-icon">✓</div><span>Completion rate</span><strong>76%</strong><small>+8% vs. last month</small></div><div class="stat-card"><div class="stat-icon">□</div><span>Upcoming reviews</span><strong>03</strong><small>Next: Oct 05</small></div></section>
+      <section class="dashboard-grid">
+        <div class="panel projects-panel"><div class="panel-head"><div><h2>Projects</h2><p>Progress across your active work</p></div><button class="ghost-btn">View all</button></div>
+          <div class="project-list">
+            <div class="project-row"><div class="project-icon indigo">▣</div><div class="project-info"><strong>Website Redesign</strong><span>Product</span></div><div class="progress-wrap"><div class="progress-track"><div class="progress-fill indigo" style="width:82%"></div></div><span>82%</span></div><span class="status-pill success">On track</span><button class="row-more">⋯</button></div>
+            <div class="project-row"><div class="project-icon blue">▣</div><div class="project-info"><strong>Mobile App Sprint</strong><span>Product</span></div><div class="progress-wrap"><div class="progress-track"><div class="progress-fill blue" style="width:64%"></div></div><span>64%</span></div><span class="status-pill success">On track</span><button class="row-more">⋯</button></div>
+            <div class="project-row"><div class="project-icon orange">▣</div><div class="project-info"><strong>Marketing Launch</strong><span>Campaign</span></div><div class="progress-wrap"><div class="progress-track"><div class="progress-fill orange" style="width:41%"></div></div><span>41%</span></div><span class="status-pill warning">Needs review</span><button class="row-more">⋯</button></div>
+          </div>
+        </div>
+        <div class="panel completion-panel"><div class="panel-head"><div><h2>Weekly progress</h2><p>Tasks completed this week</p></div></div><div class="donut-wrap"><div class="donut"><div class="donut-center"><strong>76%</strong><span>Complete</span></div></div></div><div class="legend"><span><i class="dot done"></i>Completed <strong>38</strong></span><span><i class="dot pending"></i>Remaining <strong>12</strong></span></div></div>
+      </section>
+      <section class="lower-grid">
+        <div class="panel tasks-panel"><div class="panel-head"><div><h2>Priority tasks</h2><p>4 tasks shown</p></div><button class="ghost-btn">Open task list</button></div><div class="task-list">
+          <div class="task-row"><button class="check-box"></button><div class="task-copy"><strong>Finalize landing page sections</strong><span>Website Redesign</span></div><span class="due">Today</span><span class="task-status in-progress">In progress</span></div>
+          <div class="task-row"><button class="check-box"></button><div class="task-copy"><strong>Review mobile navigation flow</strong><span>Mobile App Sprint</span></div><span class="due">Tomorrow</span><span class="task-status to-do">To do</span></div>
+          <div class="task-row"><button class="check-box checked">✓</button><div class="task-copy"><strong class="completed-text">Update responsive breakpoints</strong><span>Website Redesign</span></div><span class="due">Oct 07</span><span class="task-status done">Done</span></div>
+        </div></div>
+        <div class="panel activity-panel"><div class="panel-head"><div><h2>Recent activity</h2><p>Latest workspace updates</p></div></div><div class="activity-list">
+          <div class="activity-item"><div class="activity-icon">LP</div><div class="activity-copy"><strong>Landing page review</strong><span>Design handoff moved to review</span><small>12 min ago</small></div></div>
+          <div class="activity-item"><div class="activity-icon">SP</div><div class="activity-copy"><strong>Sprint planning</strong><span>New tasks were added to sprint 08</span><small>38 min ago</small></div></div>
+          <div class="activity-item"><div class="activity-icon">QA</div><div class="activity-copy"><strong>Navigation QA</strong><span>Responsive test checklist updated</span><small>2 hrs ago</small></div></div>
+        </div></div>
+      </section>
+      <footer class="footer">FlowBoard · Front-End concept project · React + CSS</footer>
+    </div>
+  </main>
+</div>
+</body></html>
